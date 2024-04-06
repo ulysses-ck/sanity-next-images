@@ -12,7 +12,7 @@ npm install
 ```
 Start server
 ```sh
-npm run server
+npm run dev
 ```
 
 To whatever you change to schema types, run the following commands to update the generated types:
