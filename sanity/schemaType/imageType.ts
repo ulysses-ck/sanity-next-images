@@ -6,6 +6,11 @@ export const imageType = defineType({
   type: "document",
   fields: [
     defineField({
+      name: "imageTitle",
+      title: "Image Title",
+      type: "string",
+    }),
+    defineField({
       name: "imageFile",
       title: "Image File",
       type: "image",
@@ -17,11 +22,6 @@ export const imageType = defineType({
     defineField({
       name: "altText",
       title: "Alt Text",
-      type: "string",
-    }),
-    defineField({
-      name: "imageTitle",
-      title: "Image Title",
       type: "string",
     }),
   ],
